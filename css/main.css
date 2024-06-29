@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Playwrite;
+    src: url("../fonts/PlaywriteUSModern-Regular.ttf");
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#wrapper {
+    display: flex;
+}
+
+/* Left Column */
+
+#left-column {
+    background-image: url("../images/3-meals-together-2.jpg");
+    position: relative;
+    height: 100vh;
+    flex-basis: 40%;
+    /* width: 40%; */
+}
+
+.logo-container {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 200px;
+    height: 160px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-image {
+    background-image: url("../images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.logo-name {
+    color: white;
+    font-size: 50px;
+    font-family: Playwrite;
+    height: 160px;
+    line-height: 160px;
+}
+
+/* Right Column */
+
+#right-column {
+    width: 100%;
+    flex-grow: 1;
+}

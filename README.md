@@ -8,5 +8,6 @@ Clone repository and run index.html in your browser.
 
 ## Credits
 
-Background Image
-[Rainbow Plant Life](https://www.rainbowplantlife.com)
+[Rainbow Plant Life](https://www.rainbowplantlife.com) - Background Image
+[SimilarPNG](https://similarpng.com/green-leaves-logo-symbol-on-transparent-background-png) - Leaf Image
+[Google Fonts](https://fonts.google.com) - Logo Font
