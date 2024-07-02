@@ -18,8 +18,7 @@ body {
     background-image: url("../images/3-meals-together-2.jpg");
     position: relative;
     height: 100vh;
-    flex-basis: 40%;
-    /* width: 40%; */
+    flex-basis: 30%;
 }
 
 .logo-container {
@@ -53,6 +52,58 @@ body {
 /* Right Column */
 
 #right-column {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
+    border: 1px solid orange;
 }
+
+.top-container {
+    flex: 1 1 0;
+    font-size: x-large;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: red;
+}
+
+.top-container div {
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.middle-container {
+    flex-basis: 200px;
+    background-color: green;
+}
+
+.bottom-container {
+    flex: 1 1 0;
+    background-color: blue;
+}
+
+/* .top-container {
+    padding: 50px;
+    font-size: x-large;
+    font-weight: bold;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: red;
+}
+
+.top-container p {
+    align-self: baseline;
+}
+
+.middle-container {
+    flex-grow: 1;
+    background-color: green;
+}
+
+.bottom-container {
+    flex-grow: 1;
+    background-color: blue;
+} */
