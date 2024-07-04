@@ -3,6 +3,10 @@
     src: url("../fonts/PlaywriteUSModern-Regular.ttf");
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     padding: 0px;
     margin: 0px;
@@ -18,7 +22,7 @@ body {
     background-image: url("../images/3-meals-together-2.jpg");
     position: relative;
     height: 100vh;
-    flex-basis: 30%;
+    flex-basis: 40%;
 }
 
 .logo-container {
@@ -55,7 +59,6 @@ body {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    border: 1px solid orange;
 }
 
 .top-container {
@@ -65,45 +68,50 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background-color: red;
+    background-color: #f9fafb;
 }
 
 .top-container div {
-    margin-left: 50px;
-    margin-bottom: 50px;
+    margin: 50px;
+    margin-right: 150px;
 }
 
 .middle-container {
+    padding: 30px 50px;
     flex-basis: 200px;
-    background-color: green;
+    box-shadow: 5px 15px;
 }
 
 .bottom-container {
     flex: 1 1 0;
-    background-color: blue;
+    background-color: #f9fafb;
 }
 
-/* .top-container {
-    padding: 50px;
-    font-size: x-large;
+.bottom-container div {
+    margin-top: 50px;
+    margin-left: 50px;
     font-weight: bold;
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    justify-content: flex-end;
-    background-color: red;
 }
 
-.top-container p {
-    align-self: baseline;
+.bottom-container div button {
+    width: 200px;
+    height: 46px;
+    background-color: #596D48;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
 }
 
-.middle-container {
-    flex-grow: 1;
-    background-color: green;
+td {
+    padding: 10px;
 }
 
-.bottom-container {
-    flex-grow: 1;
-    background-color: blue;
-} */
+input:focus {
+    border-color: blue;
+}
+
+input:invalid {
+    border-color: red;
+}
