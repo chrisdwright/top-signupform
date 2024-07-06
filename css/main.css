@@ -82,6 +82,10 @@ body {
     box-shadow: 5px 15px;
 }
 
+.middle-container label {
+    font-size: 12px;
+}
+
 .bottom-container {
     flex: 1 1 0;
     background-color: #f9fafb;
@@ -108,10 +112,10 @@ td {
     padding: 10px;
 }
 
-input:focus {
-    border-color: blue;
+input:invalid {
+    border: 1px solid red;
 }
 
-input:invalid {
-    border-color: red;
+input:focus {
+    border: 1px solid orange;
 }
