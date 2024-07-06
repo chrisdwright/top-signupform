@@ -2,9 +2,9 @@
 
 A project to practice/showcase some intermediate level HTML and CSS skills from The Odin Project.
 
-## Learning Summary
+## Notes
 
--
+Flexbox responded in ways that seemed unintuitive. Worth looking deeper into flexbox and how it all runs under the hood. I had issues with :focus and :invalid not acting like they should. The issue was never resolved.
 
 ## How to Install/Run
 
